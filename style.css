@@ -1,0 +1,106 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.books {
+  min-height: 450px;
+  width: 100%;
+}
+.books__item {
+  padding-top: 45px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.books__lupa {
+  cursor: pointer;
+  margin-left: 50%;
+}
+.books__favoruite {
+  cursor: pointer;
+}
+.books__title {
+  font-size: 30px;
+  line-height: 25px;
+  color: #000000;
+  font-weight: 500;
+  transition: 0.5s all;
+}
+.books__title:hover {
+  box-shadow: 5px 5px 20px purple;
+  border: none;
+}
+.books__image {
+  position: absolute;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+.books .subtitle1 {
+  padding-left: 15px;
+  position: relative;
+  margin-top: 163px;
+}
+.books .subtitle1__title {
+  font-size: 48px;
+  line-height: 59px;
+  color: #ffffff;
+}
+.books .subtitle1__sbt {
+  margin-top: 40px;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.books .subtitle1__end {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.popular {
+  min-height: 700px;
+  width: 100%;
+  padding-top: 65px;
+}
+.popular .popular__gla {
+  display: flex;
+  flex-wrap: wrap;
+}
+.popular__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+.popular__wrapper {
+  margin-right: 70px;
+  margin-top: 40px;
+  display: flex;
+}
+.popular__subtitle {
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+.popular__name {
+  padding-left: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  opacity: 0.64;
+}
+
+.popular__text {
+  margin-left: 5px;
+  font-family: Caros Soft;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+}
